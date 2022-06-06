@@ -1,20 +1,48 @@
+"""
+min_max function
 
+Written by Peter Anema
 
-# def min_max(values):
-#     return min(values), max(values)
+History:
+First version 15 september 2021
+Copywrite ASML
+"""
 
-def min_max(values):
-    minimum = values[0]
-    maximum = values[0]
-    for value in values[1:]:
-        if value < minimum:
-            minimum = value
-        if value > maximum:
-            maximum = value
+import random
+
+def min_max(*numbers):
+    """Calculate the minimum and maximum number of the arguments in one pass"""
+    minimum = numbers[0]
+    maximum = numbers[0]
+    for number in numbers[1:]:
+        if number < minimum:
+            minimum = number
+        if number > maximum:
+            maximum = number
     return minimum, maximum
 
-#--------------------------------------------------
+def min_max_sorted(*numbers):
+    """Calculate the minimum and maximum number of the arguments by using the sorted function"""
+    sorted_numbers = sorted(numbers)
+    minimum = sorted_numbers[0]
+    maximum = sorted_numbers[-1]
+    return minimum, maximum
 
-values = [6,2,8,3,5,7,1,4]
+def print_min_max(*numbers):
+    print(min_max(*numbers))
 
-print(min_max(values))
+
+
+# --------------------------------
+
+if __name__ == '__main__':
+
+    import random
+    numbers = [random.randint(1, 10000) for _ in range(10)]
+
+    print(numbers)
+
+    minimum, maximum = min_max(*numbers)
+
+    print('Minimum:', minimum)
+    print('Maximum:', maximum)
