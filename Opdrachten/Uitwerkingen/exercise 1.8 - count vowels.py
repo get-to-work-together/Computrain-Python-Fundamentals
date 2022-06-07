@@ -27,12 +27,26 @@ print("Total number of vowels: %d" % number_of_vowels)
 
 
 
+print()
+
+
+
 number_of_vowels = 0
-vowels = 'aeiouy'
-for vowel in vowels:
+for vowel in ['a', 'e', 'i', 'o', 'u', 'y']:
     n = s.count(vowel)
     number_of_vowels += n
     print(f'Vowel {vowel} occurs {n} times.')
 
 print(f"Total length: {len(s)}")
 print(f"Total number of vowels: {number_of_vowels}")
+
+
+
+
+
+
+
+
+
+
+

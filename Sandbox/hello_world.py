@@ -1,6 +1,3 @@
-print('Hello world')
+name = 'Peter'
 
-getal1 = 687
-getal2 = 3
-
-print(getal1 * getal2)
+print('Hello ' + name)

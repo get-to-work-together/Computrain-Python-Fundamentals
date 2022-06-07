@@ -8,3 +8,4 @@ dice5 = random.randint(1, 6)
 
 print('Thrown', dice1, dice2, dice3, dice4, dice5)
 print('Total', dice1 + dice2 + dice3 + dice4 + dice5)
+

@@ -21,29 +21,52 @@ elif age >= 65:
     print('An elder')
 
 
-lijst = [{'bounds': [0, 2], 'stage': 'baby'},
-         {'bounds': [2, 4], 'stage': 'toddler'},
-         {'bounds': [4, 12], 'stage': 'kid'},
-         {'bounds': [13, 20], 'stage': 'teenager'},
-         {'bounds': [21, 65], 'stage': 'adult'},
-         {'bounds': [65, 110], 'stage': 'elder'}]
 
-for d in lijst:
-    lower, upper = d['bounds']
-    if lower <= age < upper:
-        print(d['stage'])
-        break
 
-lijst = [{'baby': [0, 2]},
-         {'toddler': [2, 4]},
-         {'kid': [4, 12]},
-         {'teenager': [13, 20]},
-         {'adult': [21, 65]},
-         {'elder': [65, 110]}]
+##match age:
+##    case age if age < 2:
+##        print('A baby')
+##    case age if age in range(5):
+##        print('A toddler')
+##    case age if age in range(14):
+##        print('A kid')
+##    case age if age in range(21):
+##        print('A teenager')
+##    case age if age in range(66):
+##        print('An adult')
+##    case _:
+##        print('An elder')
 
-for k, v in lijst.items():
-    lower, upper = v
-    if lower <= age < upper:
-        print(k)
-        break
+
+
+
+
+##lijst = [{'bounds': [0, 2], 'stage': 'baby'},
+##         {'bounds': [2, 4], 'stage': 'toddler'},
+##         {'bounds': [4, 12], 'stage': 'kid'},
+##         {'bounds': [13, 20], 'stage': 'teenager'},
+##         {'bounds': [21, 65], 'stage': 'adult'},
+##         {'bounds': [65, 110], 'stage': 'elder'}]
+##
+##for d in lijst:
+##    lower, upper = d['bounds']
+##    if lower <= age < upper:
+##        print(d['stage'])
+##        break
+
+
+
+
+##lijst = [{'baby': [0, 2]},
+##         {'toddler': [2, 4]},
+##         {'kid': [4, 12]},
+##         {'teenager': [13, 20]},
+##         {'adult': [21, 65]},
+##         {'elder': [65, 110]}]
+##
+##for k, v in lijst.items():
+##    lower, upper = v
+##    if lower <= age < upper:
+##        print(k)
+##        break
 

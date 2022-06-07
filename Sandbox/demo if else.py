@@ -1,14 +1,15 @@
 
 
-leeftijd = 24
+leeftijd = 10
 
 if leeftijd >= 21:
     print('Volwassen')
-        
-    if leeftijd >= 65:
-        print('Oud zeg!')
+
+elif leeftijd >= 13:
+    print('Tiener')
 
 else:
-    print('Nog even wachten')
-
+    print('Kind')
+    
 print('Klaar')
+        

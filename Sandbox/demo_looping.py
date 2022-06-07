@@ -1,19 +1,26 @@
 
 
-# number = 1
-# while number < 10:
-#     print(number)
-#     number = number + 1
-#
-#
-# for number in [4,3,2,6,1]:
-#     print(number)
-#
-# for number in ['a','b','c','z']:
-#     print(number)
+##number = 1
+##while number < 10:
+##    print(number)
+##    number = number + 1
 
-# for number in range(1, 11, 2):
-#     print(number)
+
+
+
+##for number in [4,3,2,6,1]:
+##    print(number)
+
+
+
+##for number in ['a','b','c','z']:
+##    print(number)
+
+
+##for number in range(10):
+##    print(number)
+
+
 
 magicnumber = 11
 
