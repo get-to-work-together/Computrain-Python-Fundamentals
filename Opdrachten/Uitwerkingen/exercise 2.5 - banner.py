@@ -14,15 +14,41 @@ def create_banner(text, c='*'):
     return s
 
 def print_banner(text):
-    print(create_banner(text, '+'))
+    print(create_banner(text))
 
 
 # ----------------------------------------------------------
 
-if __name__ == '__main__':
+name = input('Wat is jouw naam? : ')
 
-    name = input('Wat is jouw naam? : ')
+banner(name)
 
-    banner(name)
+    
 
-    print_banner(name)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+# print_banner(name)

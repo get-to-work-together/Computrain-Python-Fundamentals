@@ -8,5 +8,5 @@ while True:
 
     names.append(name)
 
-for name in sorted(names):
-    print(name)
+for i, name in enumerate(sorted(names), start = 1):
+    print(i, name)
