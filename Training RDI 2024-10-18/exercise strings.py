@@ -1,0 +1,11 @@
+s = input('Geef tekst: ')
+
+print(s)
+print(s.upper())
+print(s.lower())
+print(s.capitalize())
+print(s.title())
+print(s[:3])
+print(s.endswith('?'))
+print(s[-1]=='?')
+print(s.lower().replace(' ', '_'))

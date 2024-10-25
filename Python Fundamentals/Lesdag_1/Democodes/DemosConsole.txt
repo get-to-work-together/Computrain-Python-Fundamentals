@@ -1,0 +1,185 @@
+Microsoft Windows [Version 10.0.19042.1348]
+(c) Microsoft Corporation. All rights reserved.
+
+H:\>python
+Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("hallo Brian")
+hallo Brian
+>>> 5+4
+9
+>>> 5+8/2
+9.0
+>>> print("Hoe gaat het ermee?")
+Hoe gaat het ermee?
+>>> invoer = input("Hoe gaat het ermee?")
+Hoe gaat het ermee?Goed
+>>> print(invoer)
+Goed
+>>> quit()
+
+H:\>python
+Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 6+5
+11
+>>> print(6+5)
+11
+>>> print(5/4)
+1.25
+>>> print(45 * 5)
+225
+>>> print(100-50)
+50
+>>> a = True
+>>> a
+True
+>>> b = 1
+>>> b
+1
+>>> a
+True
+>>> a + b
+2
+>>> c = False
+>>> c
+False
+>>> b + c
+1
+>>> d = bool(0)
+>>> d
+False
+>>> d = bool(1)
+>>> d
+True
+>>> d = bool(100_
+  File "<stdin>", line 1
+    d = bool(100_
+                ^
+SyntaxError: invalid decimal literal
+>>> d = bool(100)
+>>> d
+True
+>>> d = bool(0.0000)
+>>> d
+False
+>>> d = bool(0.0000111)
+>>> d
+True
+>>> d
+True
+>>> float(d)_
+  File "<stdin>", line 1
+    float(d)_
+            ^
+SyntaxError: invalid syntax
+>>> float(d)
+1.0
+>>> getal1 = 10
+>>> getal1
+10
+>>> type(getal1)
+<class 'int'>
+>>> getal2 = getal1 + getal1
+>>> getal2
+20
+>>> getal1Woord = str(getal1)_
+  File "<stdin>", line 1
+    getal1Woord = str(getal1)_
+                             ^
+SyntaxError: invalid syntax
+>>> getal1Woord = str(getal1)
+>>> getal1Woord
+'10'
+>>> type(getal1Woord)
+<class 'str'>
+>>> getal2Woord = getal1Woord + getal1Woord
+>>> getal2Woord
+'1010'
+>>> getal1000 = int(getal2Woord)
+>>> getal1000
+1010
+>>> type(getal1000)
+<class 'int'>
+>>> 5 %2
+1
+>>> 10 % 7
+3
+>>> 6 / 4
+1.5
+>>> 6 // 4
+1
+>>> 100000/ 787
+127.06480304955528
+>>> 100000// 787
+127
+>>> b = 100
+>>> c = 1000
+>>> b
+100
+>>> c
+1000
+>>> b < c
+True
+>>> b > c
+False
+>>> b == b
+True
+>>> b != b
+False
+>>> s = b != b
+>>> s
+False
+>>> woordje = "Leuk woord"
+>>> wooordje.capitalize()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'wooordje' is not defined
+>>> woordje.capitilize()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'capitilize'
+>>> woordje.capitalize()
+'Leuk woord'
+>>> woordje.lower()
+'leuk woord'
+>>> woordje
+'Leuk woord'
+>>> len(woordje)
+10
+>>> woordje[1]
+'e'
+>>> woordje[10]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: string index out of range
+>>> woordje[9]
+'d'
+>>> woordje[-1]
+'d'
+>>> woordje[-10]
+'L'
+>>> woordje[0:4]
+'Leuk'
+>>> woordje[:4]
+'Leuk'
+>>> woordje[0:-2]
+'Leuk woo'
+>>> woordje[-10:8]
+'Leuk woo'
+>>> helftzin = len(woordje)
+>>> helftzin
+10
+>>> helftzin = helftzin / 2
+>>> helftzin
+5.0
+>>> woordje[:helftzin]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: slice indices must be integers or None or have an __index__ method
+>>> woordje[:int(helftzin)]
+'Leuk '
+>>> hartje = "\u2665"
+>>> hartje
+'♥'
+>>>
